@@ -4,7 +4,7 @@ $this->title = 'Token: ' . $token;
 <div class="log-index">
 
 	<div class="table-responsive">
-		<table id="table-log" class="table table-condensed table-log">
+		<table id="table-log" class="table table-condensed table-striped table-log">
 			<thead>
 			<tr>
 				<th class="col1">TIPO</th>
