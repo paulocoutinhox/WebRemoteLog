@@ -55,6 +55,11 @@ $config = [
 	'aliases'      => [
 		'@com/prsolucoes' => '@vendor/prsolucoes/web-response/php/source',
 	],
+	'modules' => [
+		'api' => [
+			'class' => 'app\modules\api\API',
+		],
+	],
 ];
 
 if (YII_ENV_DEV) {
